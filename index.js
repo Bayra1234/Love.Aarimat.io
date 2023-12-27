@@ -7,5 +7,4 @@ function moveButton() {
     var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
     document.getElementById('noButton').style.left = `${x}px`;
     document.getElementById('noButton').style.top = `${y}px`;
-    alert('Тийм гэдгийг нь дараа хө')
 }
